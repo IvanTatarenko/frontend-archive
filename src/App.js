@@ -11,14 +11,18 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Reabit from "./pages/Reabit";
 
+import React, {useState, useEffect} from "react";
+
 
 function App() {
+  
   return (
+    
     <BrowserRouter>
       <Header />
       <Routes>
         <Route path='/' element = {<Home />} />
-        <Route path='/reabit' element = {<Reabit />} />
+        <Route path='/reabit/*' element = {<Reabit />} />
       </Routes>
       <Footer />
     </BrowserRouter>
