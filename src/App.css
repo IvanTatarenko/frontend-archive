@@ -46,11 +46,6 @@ main{
 main h1{
   text-align: center;
 }
-.codeBloc{
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-}
 .code{
   background-color: #2F2E33;
   color: #FFFFFF;
@@ -78,6 +73,25 @@ main h1{
   margin: 5px;
   border-radius: 2px;
   padding: 15px;
+}
+ul.pagin{
+  list-style-type:none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+li.pagin{
+  float: left;
+  margin: 2px;
+}
+.pagination{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2F2E33;
+  width: 50%;
+  height: 30px;
+
 }
 footer{
   text-align: center;
